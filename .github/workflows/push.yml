@@ -26,7 +26,8 @@ jobs:
           pip install -r requirements.txt
       # 4. Run the tests
       - name: Run tests with pytest
-        run: pytest
+        run: |
+          pytest
   push-to-repo:
     runs-on: ubuntu-latest
     needs: build-and-test
