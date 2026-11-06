@@ -48,5 +48,5 @@ jobs:
         with:
           context: .
           push: true
-          platform: linux/amd64, linux/arm64
-          tag: dlh-devops/fast-api-docker-example:latest
+          platforms: linux/amd64, linux/arm64
+          tags: dlh-devops/fast-api-docker-example:latest
