@@ -49,4 +49,4 @@ jobs:
           context: .
           push: true
           platforms: linux/amd64, linux/arm64
-          tags: dlh-devops/fast-api-docker-example:latest
+          tags: morgenwelt/fast-api-docker-example:latest
